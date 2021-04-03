@@ -1,29 +1,89 @@
 {
   "monster": [
     {
-      "type": "aberration",
-      "size": "T",
-      "ac": [
-        {
-          "ac": 7,
-          "from": [
-            "natural armor"
-          ]
-        }
+      "languages": [
+        "understands Gnomish"
       ],
-      "alignment": [
-        "N",
-        "E"
-      ],
-      "source": "TheFalseHydra",
+      "tokenUrl": "a",
       "hp": {
         "formula": "6d4 + 6",
         "average": 21
       },
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "petrified",
+        "poisoned"
+      ],
       "speed": {
         "walk": 0
       },
-      "name": "False Hydra Larva"
+      "passive": 10,
+      "name": "False Hydra Larva",
+      "cha": 1,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "type": "aberration",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "wis": 10,
+      "dex": 18,
+      "con": 15,
+      "int": 3,
+      "trait": [
+        {
+          "entries": [],
+          "name": null
+        },
+        {
+          "entries": [
+            "immune to any spell or effect",
+            "lamo"
+          ],
+          "name": "Immutable form"
+        }
+      ],
+      "action": [
+        {
+          "name": "Fleshcutter",
+          "entries": [
+            "{@atk rw} {@hit +6} to hit, range 100/400 ft., one creature. {@h}15 ({@damage 2d10 + 4}) piercing damage."
+          ]
+        },
+        {
+          "entries": [
+            "clap your hands"
+          ],
+          "name": "Clap"
+        }
+      ],
+      "immune": [
+        {
+          "cond": true,
+          "immune": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks that aren't adamantine"
+        },
+        "poison"
+      ],
+      "cr": 1,
+      "ac": {
+        "ac": 7,
+        "from": [
+          "natural armor"
+        ]
+      },
+      "str": 12,
+      "size": "T",
+      "source": "TheFalseHydra"
     }
   ]
 }
