@@ -1,10 +1,6 @@
 {
   "monster": [
     {
-      "languages": [
-        "understands Gnomish"
-      ],
-      "tokenUrl": null,
       "hp": {
         "formula": "6d4 + 6",
         "average": 21
@@ -16,6 +12,9 @@
         "paralyzed",
         "petrified",
         "poisoned"
+      ],
+      "languages": [
+        "understands Gnomish"
       ],
       "speed": {
         "walk": 0
