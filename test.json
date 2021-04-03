@@ -1,6 +1,15 @@
 {
   "monster": [
     {
+      "speed": {
+        "walk": 0
+      },
+      "passive": 10,
+      "name": "False Hydra Larva",
+      "cha": 1,
+      "senses": [
+        "darkvision 60 ft."
+      ],
       "hp": {
         "formula": "6d4 + 6",
         "average": 21
@@ -16,15 +25,6 @@
       "languages": [
         "understands Gnomish"
       ],
-      "speed": {
-        "walk": 0
-      },
-      "passive": 10,
-      "name": "False Hydra Larva",
-      "cha": 1,
-      "senses": [
-        "darkvision 60 ft."
-      ],
       "type": "aberration",
       "alignment": [
         "N",
@@ -36,8 +36,13 @@
       "int": 3,
       "trait": [
         {
+          "entries": [],
+          "name": null
+        },
+        {
           "entries": [
-            "immune to any spell or effect"
+            "immune to any spell or effect",
+            "lamo"
           ],
           "name": "Immutable form"
         }
