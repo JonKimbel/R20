@@ -4,7 +4,7 @@
       "languages": [
         "understands Gnomish"
       ],
-      "tokenUrl": "a",
+      "tokenUrl": null,
       "hp": {
         "formula": "6d4 + 6",
         "average": 21
