@@ -1,0 +1,29 @@
+{
+  "monster": [
+    {
+      "type": "aberration",
+      "size": "T",
+      "ac": [
+        {
+          "ac": 7,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "source": "TheFalseHydra",
+      "hp": {
+        "formula": "6d4 + 6",
+        "average": 21
+      },
+      "speed": {
+        "walk": 0
+      },
+      "name": "False Hydra Larva"
+    }
+  ]
+}
